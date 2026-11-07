@@ -32,21 +32,18 @@ export const HeroSection: React.FC = () => {
             <div className="inline-flex items-center gap-2.5 px-3.5 py-1.5 rounded-sm bg-cream-100/10 border border-cream-100/20 backdrop-blur-sm mb-6">
               <span className="w-2 h-2 rounded-full bg-earth-400" />
               <span className="text-[11px] font-mono uppercase tracking-[0.22em] text-cream-100">
-                Purnature Khatulistiwa LLC • International Botanical Trade
+                PUR NATUREK
               </span>
             </div>
 
-            {/* Suggested Headline from Brief */}
+            {/* Approved Headline */}
             <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl xl:text-[64px] font-medium leading-[1.08] tracking-[-0.01em] text-cream-50 mb-6">
-              Indonesian Botanical Ingredients.{' '}
-              <span className="italic font-normal text-cream-200">
-                Global Wholesale Partnerships.
-              </span>
+              Premium Kratom. Wholesale &amp; Bulk Supply.
             </h1>
 
-            {/* Supporting Text from Brief */}
+            {/* Approved Subheadline */}
             <p className="text-base sm:text-lg lg:text-[19px] leading-relaxed text-cream-100/90 max-w-2xl mb-9 font-normal">
-              PurNatureK connects Indonesian botanical sourcing with international wholesale markets through kratom powder and extract products, product documentation, and business partnerships.
+              Your US-Based Wholesale Partner for Mitragyna speciosa Powder &amp; Extract.
             </p>
 
             {/* Primary & Secondary CTAs */}
@@ -88,7 +85,7 @@ export const HeroSection: React.FC = () => {
               <dl className="space-y-4 text-xs">
                 <div className="flex justify-between py-2 border-b border-botanical-800/10">
                   <dt className="font-mono uppercase tracking-wider text-botanical-600">
-                    Origin Region
+                    Product Origin
                   </dt>
                   <dd className="font-semibold text-botanical-900 text-right">
                     West Kalimantan, Indonesia
@@ -107,7 +104,7 @@ export const HeroSection: React.FC = () => {
                     Commercial Model
                   </dt>
                   <dd className="font-semibold text-botanical-900 text-right">
-                    B2B Wholesale Supply Only
+                    US B2B Wholesale Supply
                   </dd>
                 </div>
                 <div className="flex justify-between py-2">
@@ -143,10 +140,10 @@ export const HeroSection: React.FC = () => {
             <Leaf className="w-5 h-5 text-earth-400 shrink-0 mt-0.5" aria-hidden="true" />
             <div>
               <h2 className="text-xs font-mono uppercase tracking-[0.18em] text-cream-50 font-semibold">
-                Indonesian Botanical Sourcing
+                Direct Origin Sourcing
               </h2>
               <p className="text-xs text-cream-200/80 mt-1">
-                Rooted in Pontianak, West Kalimantan, connecting regional botanical harvesting with export preparation.
+                Authentic Indonesian botanical leaf sourcing connecting harvest origins with verified export preparation.
               </p>
             </div>
           </div>
@@ -167,10 +164,10 @@ export const HeroSection: React.FC = () => {
             <Globe2 className="w-5 h-5 text-earth-400 shrink-0 mt-0.5" aria-hidden="true" />
             <div>
               <h2 className="text-xs font-mono uppercase tracking-[0.18em] text-cream-50 font-semibold">
-                Dedicated B2B Trade Focus
+                US Commercial Operations
               </h2>
               <p className="text-xs text-cream-200/80 mt-1">
-                Structured exclusively for commercial buyers, importers, and wholesale partners—not public retail.
+                Structured exclusively for US commercial buyers, distributors, and wholesale partners—not public retail.
               </p>
             </div>
           </div>

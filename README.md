@@ -1,14 +1,17 @@
-# PurNatureK Bulk — Corporate B2B Landing Page
+# PUR NATUREK — Premium Kratom. Wholesale & Bulk Supply.
 
-Official international B2B wholesale landing page for **PurNatureK / Purnature Khatulistiwa LLC**, an Indonesian-origin supplier of *Mitragyna speciosa* (kratom) botanical leaf powder and concentrated botanical extracts.
+Official corporate B2B landing page for **PUR NATUREK / Purnature Khatulistiwa LLC**, a US-based wholesale partner supplying premium *Mitragyna speciosa* (kratom) powder and concentrated botanical extract products to the American commercial market.
 
 ## Overview
 
-This website serves as the public commercial gateway for PurNatureK's international wholesale trade operations, communicating botanical sourcing in West Kalimantan, Indonesia, core product categories, batch-specific analytical quality documentation, and wholesale partnership channels.
+This website serves as the commercial gateway for PurNatureK's wholesale and bulk supply operations, communicating product specifications, batch-specific analytical quality documentation, and US wholesale partnership channels.
 
 - **Primary Corporate Website:** [https://www.purnaturek.com/](https://www.purnaturek.com/)
 - **Wholesale Member Portal:** [https://members.purnaturekbulk.com/](https://members.purnaturekbulk.com/)
 - **Corporate Bulk Domain:** [https://purnaturekbulk.com/](https://purnaturekbulk.com/)
+- **US Commercial Office:** 505 N Lake Shore Dr, Suite 3404, Chicago, IL 60611, USA
+- **Wholesale Inquiry Email:** [wholesales@purnaturek.com](mailto:wholesales@purnaturek.com)
+- **Commercial Telephone:** +1 (773) 425-6646
 
 ---
 
@@ -84,3 +87,4 @@ npm run build
 ## Legal & Compliance Notice
 
 This website is presented exclusively for international business-to-business (B2B) wholesale trade evaluation. Information and analytical summaries are not evaluated by the U.S. FDA or international health authorities. Products are not intended to diagnose, treat, cure, or prevent any disease. Access is restricted to individuals 21 years of age or older.
+

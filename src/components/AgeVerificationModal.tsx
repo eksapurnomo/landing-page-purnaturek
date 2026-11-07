@@ -157,7 +157,7 @@ export const AgeVerificationModal: React.FC<AgeVerificationModalProps> = ({
           </div>
 
           <span className="text-[10px] font-mono uppercase tracking-[0.26em] text-[#35664D] mb-1.5">
-            Purnature Khatulistiwa LLC • International Wholesale
+            Purnature Khatulistiwa LLC • US Wholesale &amp; Bulk Supply
           </span>
 
           {/* Mandatory Heading */}

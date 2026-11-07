@@ -341,8 +341,8 @@ export const IMAGE_ASSET_SOURCES: ImageAssetInfo[] = [
   },
   {
     file: '/images/sourcing-indonesia.jpg',
-    section: 'About PurNatureK / Indonesian Sourcing',
-    description: 'Illustrative editorial photograph of Indonesian botanical leaf inspection on bamboo drying racks in West Kalimantan.',
+    section: 'About PurNatureK / Botanical Origin',
+    description: 'Illustrative editorial photograph of botanical leaf inspection on bamboo drying racks in West Kalimantan.',
     source: 'Original bespoke AI-generated editorial illustration (illustrative representation; does not depict actual employees).',
   },
   {
@@ -366,7 +366,7 @@ export const IMAGE_ASSET_SOURCES: ImageAssetInfo[] = [
   {
     file: '/images/wholesale-partnership.jpg',
     section: 'Wholesale Partnership',
-    description: 'Illustrative international B2B commercial discussion examining botanical sample containers and documentation.',
+    description: 'Illustrative B2B commercial discussion examining botanical sample containers and documentation.',
     source: 'Original bespoke AI-generated editorial photography (illustrative representation; does not depict actual partners or customers).',
   },
 ];

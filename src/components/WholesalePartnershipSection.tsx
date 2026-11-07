@@ -36,13 +36,13 @@ const PARTNERSHIP_TOPICS = [
     icon: MessageSquare,
     title: 'Commercial Discussions',
     description:
-      'Transparent B2B communication regarding order structure, export preparation from Indonesia, and international trade logistics.',
+      'Transparent B2B communication regarding order structure, commercial fulfillment, domestic delivery, and wholesale terms.',
   },
   {
     icon: Handshake,
     title: 'Distributor & Business Partnerships',
     description:
-      'Long-term wholesale collaboration opportunities for established international botanical ingredient buyers and distributors.',
+      'Long-term wholesale collaboration opportunities for established botanical ingredient buyers, brand owners, and distributors.',
   },
 ];
 
@@ -61,7 +61,7 @@ export const WholesalePartnershipSection: React.FC<WholesalePartnershipProps> = 
             <div className="inline-flex items-center gap-2 mb-4">
               <span className="w-8 h-[1px] bg-earth-400" aria-hidden="true" />
               <span className="text-xs font-mono uppercase tracking-[0.22em] text-cream-200">
-                International B2B Collaboration
+                US Wholesale &amp; Bulk Supply
               </span>
             </div>
 
@@ -71,7 +71,7 @@ export const WholesalePartnershipSection: React.FC<WholesalePartnershipProps> = 
             </h2>
 
             <p className="text-sm sm:text-base text-cream-100/90 leading-relaxed mb-8">
-              PurNatureK works with international wholesale buyers, ingredient distributors, and commercial enterprises seeking a straightforward, documentation-supported supply bridge to Indonesian{' '}
+              PurNatureK works with US wholesale buyers, distributors, and commercial enterprises seeking a dependable, documentation-supported domestic supply partner for high-grade{' '}
               <em>Mitragyna speciosa</em> powder and extract products.
             </p>
 
@@ -80,14 +80,14 @@ export const WholesalePartnershipSection: React.FC<WholesalePartnershipProps> = 
               <div className="aspect-[16/10] overflow-hidden rounded-sm">
                 <img
                   src="/images/wholesale-partnership.jpg"
-                  alt="International B2B wholesale buyers and Indonesian botanical sourcing professionals reviewing product samples and analytical documentation"
+                  alt="Wholesale commercial partners and botanical specialists reviewing product samples and analytical documentation"
                   loading="lazy"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
               <figcaption className="mt-3 px-1 flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-[11px] text-cream-200/75">
                 <span className="font-mono uppercase tracking-wider text-cream-100">
-                  Indonesian Supply • International B2B Trade
+                  Verified Botanical Origin • US Wholesale Trade
                 </span>
                 <span className="italic">
                   Illustrative commercial photography; does not depict actual employees or clients

@@ -19,7 +19,7 @@ export const AboutSection: React.FC = () => {
             </div>
 
             <h2 className="font-serif text-3xl sm:text-4xl lg:text-[44px] font-medium leading-[1.15] text-botanical-950 mb-6">
-              Connecting Indonesian Botanical Origins with International Wholesale Trade.
+              US-Based Wholesale Partner for Premium Mitragyna speciosa Ingredients.
             </h2>
 
             <div className="space-y-4 text-sm sm:text-base text-botanical-800/90 leading-relaxed">
@@ -27,20 +27,19 @@ export const AboutSection: React.FC = () => {
                 <strong className="font-semibold text-botanical-950">
                   Purnature Khatulistiwa LLC
                 </strong>{' '}
-                (operating as <strong className="font-semibold text-botanical-950">PurNatureK</strong>) is a business-to-business botanical supplier focused on Indonesian-origin{' '}
+                (operating as <strong className="font-semibold text-botanical-950">PurNatureK</strong>) is a US-based commercial wholesale business serving the American wholesale and bulk botanical market.
+              </p>
+
+              <p>
+                Based in the United States, PurNatureK specializes in supplying high-grade{' '}
                 <em className="font-serif italic text-lg text-botanical-900">
                   Mitragyna speciosa
                 </em>{' '}
-                (kratom) ingredients for international commercial buyers.
+                (kratom) leaf powder and concentrated botanical extract products to US wholesale buyers, distributors, and qualified commercial partners. All commercial inquiries, accounts, and client relationships are managed directly by our US-based team.
               </p>
 
               <p>
-                With regional sourcing roots in Pontianak, West Kalimantan, Indonesia, and commercial operations serving international markets, PurNatureK bridges regional raw botanical material sourcing with the documentation and communication standards expected in global B2B trade.
-              </p>
-
-              <p>
-                Rather than operating as a consumer retail storefront, PurNatureK focuses exclusively on wholesale supply relationships—providing bulk{' '}
-                <em>Mitragyna speciosa</em> leaf powder and concentrated botanical extract products supported by lot-specific analytical documentation for qualified business inquiries.
+                While our botanical raw materials are sourced from authentic Indonesian origins, PurNatureK operates strictly as a dedicated B2B wholesale partner—delivering documented, third-party laboratory verified bulk ingredients with reliable domestic communication and commercial support.
               </p>
             </div>
 
@@ -49,10 +48,10 @@ export const AboutSection: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2 text-botanical-800 font-semibold text-xs uppercase tracking-wider mb-1.5">
                   <MapPin className="w-4 h-4 text-earth-500" aria-hidden="true" />
-                  <span>Sourcing Origin</span>
+                  <span>Product Origin</span>
                 </div>
                 <p className="text-xs text-botanical-700 leading-relaxed">
-                  Pontianak, West Kalimantan, Indonesia—traditional tropical habitat of <em>Mitragyna speciosa</em>.
+                  West Kalimantan, Indonesia—natural botanical origin of <em>Mitragyna speciosa</em>.
                 </p>
               </div>
 
@@ -69,10 +68,10 @@ export const AboutSection: React.FC = () => {
               <div>
                 <div className="flex items-center gap-2 text-botanical-800 font-semibold text-xs uppercase tracking-wider mb-1.5">
                   <Compass className="w-4 h-4 text-earth-500" aria-hidden="true" />
-                  <span>B2B Focus</span>
+                  <span>US Commercial Desk</span>
                 </div>
                 <p className="text-xs text-botanical-700 leading-relaxed">
-                  Dedicated wholesale inquiry workflow and private member portal for commercial partners.
+                  Dedicated US-based wholesale service, inquiry workflow, and private member portal.
                 </p>
               </div>
             </div>
@@ -109,17 +108,17 @@ export const AboutSection: React.FC = () => {
                 <div className="overflow-hidden rounded-sm aspect-[16/11] bg-botanical-900">
                   <img
                     src="/images/sourcing-indonesia.jpg"
-                    alt="Indonesian botanical sourcing specialists inspecting harvested Mitragyna speciosa leaves on bamboo drying racks in West Kalimantan"
+                    alt="Botanical sourcing specialists inspecting harvested Mitragyna speciosa leaves on bamboo drying racks in West Kalimantan"
                     loading="lazy"
                     className="w-full h-full object-cover object-center hover:scale-[1.02] transition-transform duration-500"
                   />
                 </div>
                 <figcaption className="mt-3.5 px-1 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px] text-botanical-600">
                   <span className="font-mono uppercase tracking-wider text-botanical-800">
-                    West Kalimantan Botanical Sourcing • Indonesia
+                    Botanical Sourcing Origin • West Kalimantan
                   </span>
                   <span className="italic">
-                    Illustrative editorial representation of regional leaf inspection
+                    Illustrative editorial representation of botanical leaf inspection
                   </span>
                 </figcaption>
               </figure>

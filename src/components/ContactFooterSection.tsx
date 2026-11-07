@@ -18,7 +18,7 @@ interface ContactFooterProps {
 
 const CANONICAL_URL = 'https://purnaturekbulk.com/';
 const SHARE_TITLE =
-  'PurNatureK (Purnature Khatulistiwa LLC) — Indonesian Botanical Ingredients & Global Wholesale Partnerships';
+  'PUR NATUREK — Premium Kratom Powder & Extract Wholesale and Bulk Supply';
 
 export const ContactFooterSection: React.FC<ContactFooterProps> = ({
   selectedInquiryTopic,
@@ -61,7 +61,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
       .filter(Boolean)
       .join('\n');
 
-    window.location.href = `mailto:info@purnaturek.com?subject=${subject}&body=${encodeURIComponent(
+    window.location.href = `mailto:wholesales@purnaturek.com?subject=${subject}&body=${encodeURIComponent(
       bodyLines
     )}`;
   };
@@ -90,7 +90,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
 
   const handleCopyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('info@purnaturek.com');
+      await navigator.clipboard.writeText('wholesales@purnaturek.com');
       setCopiedEmail(true);
       setTimeout(() => setCopiedEmail(false), 2500);
     } catch {
@@ -128,7 +128,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
               </h2>
 
               <p className="text-sm sm:text-base text-botanical-700 leading-relaxed mb-8">
-                For wholesale inquiries regarding Indonesian <em>Mitragyna speciosa</em> powder and extract products, batch specifications, or commercial partnership discussions, contact{' '}
+                For wholesale inquiries regarding bulk <em>Mitragyna speciosa</em> powder and extract products, batch specifications, or commercial partnership discussions, contact our US commercial team at{' '}
                 <strong className="font-semibold text-botanical-900">
                   Purnature Khatulistiwa LLC
                 </strong>{' '}
@@ -145,10 +145,10 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
                     </span>
                     <div className="flex flex-wrap items-center gap-2 mt-0.5">
                       <a
-                        href="mailto:info@purnaturek.com"
+                        href="mailto:wholesales@purnaturek.com"
                         className="text-sm font-semibold text-botanical-950 hover:underline"
                       >
-                        info@purnaturek.com
+                        wholesales@purnaturek.com
                       </a>
                       <button
                         type="button"
@@ -169,12 +169,6 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
                         )}
                       </button>
                     </div>
-                    <a
-                      href="mailto:info@purnaturekhatulistiwa.com"
-                      className="text-xs text-botanical-600 hover:underline mt-0.5 block"
-                    >
-                      info@purnaturekhatulistiwa.com
-                    </a>
                   </div>
                 </div>
 
@@ -197,10 +191,10 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
                   <MapPin className="w-5 h-5 text-botanical-800 shrink-0 mt-0.5" aria-hidden="true" />
                   <div>
                     <span className="text-[10.5px] font-mono uppercase tracking-wider text-botanical-600 block">
-                      Indonesian Sourcing Office
+                      US Commercial Office
                     </span>
                     <p className="text-xs sm:text-sm font-medium text-botanical-900 mt-0.5 leading-relaxed">
-                      Jl. Nyi Ageng Serang No. 14, Pontianak, Kalimantan Barat, Indonesia
+                      505 N Lake Shore Dr, Suite 3404, Chicago, IL 60611, USA
                     </p>
                   </div>
                 </div>
@@ -452,7 +446,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
               </div>
 
               <p className="text-xs sm:text-sm text-cream-200/80 leading-relaxed max-w-md mb-5">
-                Indonesian-origin wholesale supplier of <em>Mitragyna speciosa</em> (kratom) powder and concentrated botanical extract products for qualified international B2B trade partners.
+                US-based wholesale supplier of premium <em>Mitragyna speciosa</em> (kratom) powder and concentrated botanical extract products for commercial buyers, distributors, and qualified business partners.
               </p>
 
               {/* Required Age Restriction Notice */}
