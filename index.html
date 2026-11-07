@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PurNatureK | Indonesian Botanical Ingredients &amp; Global B2B Wholesale Supply</title>
+    <meta
+      name="description"
+      content="PurNatureK (Purnature Khatulistiwa LLC) connects Indonesian Mitragyna speciosa botanical sourcing with international B2B wholesale markets through bulk kratom powder, concentrated kratom extract, and batch-specific analytical documentation."
+    />
+    <meta
+      name="keywords"
+      content="PurNatureK, Purnature Khatulistiwa LLC, Indonesian botanical ingredients, Mitragyna speciosa wholesale, bulk kratom powder, kratom extract B2B, botanical wholesale supplier Indonesia"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="rating" content="adult" />
+    <link rel="canonical" href="https://purnaturekbulk.com/" />
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PurNatureK — Purnature Khatulistiwa LLC" />
+    <meta property="og:title" content="PurNatureK | Indonesian Botanical Ingredients. Global Wholesale Partnerships." />
+    <meta
+      property="og:description"
+      content="PurNatureK connects Indonesian botanical sourcing with international wholesale markets through kratom powder and extract products, product documentation, and business partnerships."
+    />
+    <meta property="og:url" content="https://purnaturekbulk.com/" />
+    <meta property="og:image" content="https://purnaturekbulk.com/images/hero-kratom-botanical.jpg" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="PurNatureK | Indonesian Botanical Ingredients. Global Wholesale Partnerships." />
+    <meta
+      name="twitter:description"
+      content="Indonesian-origin Mitragyna speciosa powder and extract wholesale supply for international B2B partners. Age restricted: 21+ only."
+    />
+    <meta name="twitter:image" content="https://purnaturekbulk.com/images/hero-kratom-botanical.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="alternate icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Typography: Cormorant Garamond, Plus Jakarta Sans, JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Synchronous pre-render lock to prevent any interactive flash before Age Gate mounts -->
+    <script>
+      (function () {
+        try {
+          var verified = window.sessionStorage.getItem('purnaturek_age_verified_21') === 'true';
+          if (!verified) {
+            document.documentElement.classList.add('age-gate-locked');
+          }
+        } catch (e) {
+          document.documentElement.classList.add('age-gate-locked');
+        }
+      })();
+    </script>
+  </head>
+  <body class="bg-cream-100 text-botanical-900 font-sans antialiased selection:bg-botanical-800 selection:text-cream-50">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

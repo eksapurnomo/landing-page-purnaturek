@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html.age-gate-locked,
+  html.age-gate-locked body {
+    overflow: hidden !important;
+    height: 100vh !important;
+    touch-action: none !important;
+    overscroll-behavior: none !important;
+  }
+
+  body {
+    background-color: #F7F4EC;
+    color: #132A1F;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+}
+
+/* Subtle editorial grain and custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F7F4EC;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9BBCAE;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #35664D;
+}
+
