@@ -10,7 +10,7 @@ This website serves as the commercial gateway for PurNatureK's wholesale and bul
 - **Wholesale Member Portal:** [https://members.purnaturekbulk.com/](https://members.purnaturekbulk.com/)
 - **Corporate Bulk Domain:** [https://purnaturekbulk.com/](https://purnaturekbulk.com/)
 - **US Commercial Office:** 505 N Lake Shore Dr, Suite 3404, Chicago, IL 60611, USA
-- **Wholesale Inquiry Email:** [wholesales@purnaturek.com](mailto:wholesales@purnaturek.com)
+- **Wholesale Inquiry Email:** [wholesale@purnaturek.com](mailto:wholesale@purnaturek.com)
 - **Commercial Telephone:** +1 (773) 425-6646
 
 ---

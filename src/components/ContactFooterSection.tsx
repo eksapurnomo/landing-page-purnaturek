@@ -61,7 +61,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
       .filter(Boolean)
       .join('\n');
 
-    window.location.href = `mailto:wholesales@purnaturek.com?subject=${subject}&body=${encodeURIComponent(
+    window.location.href = `mailto:wholesale@purnaturek.com?subject=${subject}&body=${encodeURIComponent(
       bodyLines
     )}`;
   };
@@ -90,7 +90,7 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
 
   const handleCopyEmail = async () => {
     try {
-      await navigator.clipboard.writeText('wholesales@purnaturek.com');
+      await navigator.clipboard.writeText('wholesale@purnaturek.com');
       setCopiedEmail(true);
       setTimeout(() => setCopiedEmail(false), 2500);
     } catch {
@@ -145,10 +145,10 @@ export const ContactFooterSection: React.FC<ContactFooterProps> = ({
                     </span>
                     <div className="flex flex-wrap items-center gap-2 mt-0.5">
                       <a
-                        href="mailto:wholesales@purnaturek.com"
+                        href="mailto:wholesale@purnaturek.com"
                         className="text-sm font-semibold text-botanical-950 hover:underline"
                       >
-                        wholesales@purnaturek.com
+                        wholesale@purnaturek.com
                       </a>
                       <button
                         type="button"
